@@ -13,8 +13,14 @@
         android:theme="@style/Theme.KL_HD_02_HappyBirthday"
         tools:targetApi="31">
         <activity
+            android:name=".Layout.RealativeLayout.ActivityRealativeLayout"
+            android:exported="false" />
+        <activity
+            android:name=".Layout.LinearLayout.ActivityLinearLayout"
+            android:exported="false" />
+        <activity
             android:name=".GiaoDien.ActivityGiaoDien"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
