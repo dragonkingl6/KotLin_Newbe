@@ -7,7 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.example.kl_hd_02_happybirthday.R
+import com.example.kl_hd_02_happybirthday.databinding.ActivityViewBinding
 
+//private lateinit var binding: ActivityViewBinding
 class ActivityView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ori"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.ActivityViewBinding">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="Các Tỉnh Thành" />
+
+    <CheckBox
+        android:id="@+id/chkTH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanh Hóa" />
+
+    <CheckBox
+        android:id="@+id/chkHN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hà Nam" />
+
+    <CheckBox
+        android:id="@+id/chkTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thái Bình" />
+
+    <CheckBox
+        android:id="@+id/chkBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắc Ninh" />
+
+    <CheckBox
+        android:id="@+id/chkHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hải Dương" />
+
+    <CheckBox
+        android:id="@+id/chkTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hà Nội" />
+
+    <Button
+        android:id="@+id/btnSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/edtSoThich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="So thich cua ban"
+        android:inputType="text|textMultiLine" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/rbNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nu" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
