@@ -13,6 +13,15 @@
         android:theme="@style/Theme.KL_HD_02_HappyBirthday"
         tools:targetApi="31">
         <activity
+            android:name=".View.ActivityView"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Layout.RealativeLayout.ActivityRealativeLayout"
             android:exported="false" />
         <activity
@@ -21,11 +30,7 @@
         <activity
             android:name=".GiaoDien.ActivityGiaoDien"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".TinhTien.ActivityTinhTien"
